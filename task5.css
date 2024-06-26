@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+#app {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+#weatherInfo {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.weather-card {
+    background: rgba(163, 68, 160, 0.3);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    flex: 1;
+    box-sizing: border-box;
+    transition: background 0.5s;
+}
+
+.hidden {
+    display: none;
+}
